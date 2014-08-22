@@ -19,10 +19,8 @@ Only purpose of this script is to add few essential shortcuts to git, that will 
 
 ##### Installation
 
-Easy peasy! Just follow these steps:
-
 1. Clone this repository. 
 2. Navigate to freshly created `git-essentials` folder.
 3. Add `execute` permissions to git-essentials.sh (for example, in command line: `chmod u+x git-essentials.sh`)
-4. Execute! `./git-essentials.sh`
+4. Execute `./git-essentials.sh`
 5. Test it! Just try to run `git b` or `git s`. Looks good, isn't it?
