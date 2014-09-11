@@ -11,7 +11,7 @@ Only purpose of this script is to add few essential shortcuts to git, that will 
 
 ##### _Log shortcuts:_
 1. `l` - basic colored log
-2. `ll` - log showing addition and substractions from each file in commit
+2. `ll` - log showing additions and substractions from each file in commit
 3. `g` - graph
 4. `lds` - same as `l`, but with dates
 5. `ld` - same as `l`, but with date intervals (like "6 days ago")
