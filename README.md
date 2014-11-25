@@ -17,6 +17,7 @@ Only purpose of this script is to add few essential shortcuts to git, that will 
 5. `ld` - same as `l`, but with date intervals (like "6 days ago")
 6. `filelog`, `fl` - log with file diff
 7. `dl` - same as `ll`, but showing only last commit
+8. `branchdiff branch1...branch2` - shows if there are any unsynchronized commits between branch1 and branch2. Useful if you are about to force delete branch that git reports as "not fully merged"
 
 ##### _Workflow shortcuts:_
 1. `s` - shortcut for `status -sb`. This will give you easy to read, clean info about status of your working tree and index. First column shows you info about file state in `index`, and second column shows info about file status in working tree
