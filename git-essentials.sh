@@ -20,6 +20,7 @@ git config --global alias.ci 'commit'
 git config --global alias.br 'branch'
 git config --global alias.pur 'pull --rebase'
 git config --global rerere.enabled 'true'
+git config --global alias.branchdiff 'log --graph --left-right --cherry-pick --oneline'
 
 echo "Turning on color git UI"
 git config --global color.ui true
