@@ -21,8 +21,8 @@ git config --global alias.br 'branch'
 git config --global alias.pur 'pull --rebase'
 git config --global rerere.enabled 'true'
 git config --global alias.branchdiff 'log --graph --left-right --cherry-pick --oneline'
-git config --global alias.sps "\!git stash -u && git purpur && git stash apply"
-git config --global alias.apc "\!git add -A && git commit && git pull --rebase && git push"
+git config --global alias.sps "!git stash -u && git purpur && git stash apply"
+git config --global alias.apc "!git add -A && git commit && git pull --rebase && git push"
 
 
 echo "Turning on color git UI"
