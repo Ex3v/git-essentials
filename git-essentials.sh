@@ -23,7 +23,7 @@ git config --global rerere.enabled 'true'
 git config --global alias.branchdiff 'log --graph --left-right --cherry-pick --oneline'
 git config --global alias.sps "!git stash -u && git pull --rebase && git stash apply"
 git config --global alias.apc "!git add -A && git commit && git pull --rebase && git push"
-
+git config --global alias.ada 'add --all :/'
 
 echo "Turning on color git UI"
 git config --global color.ui true
